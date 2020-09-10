@@ -24,4 +24,4 @@ npm run test
 npm run failing-test
 ```
 
-The main config difference is that the failing test's jest config uses a `moduleDirectory` of `./` which prevents jest from resolving `my-package` correctly when a package with the same directory.
+The main config difference is that the failing test's jest config uses a `moduleDirectory` of `./` which prevents jest from resolving `my-package` within `@my-scope/my-package`.
