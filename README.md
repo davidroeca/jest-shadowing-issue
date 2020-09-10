@@ -1,6 +1,6 @@
 # Jest Shadowing Issue
 
-This repo reproduces
+This repo reproduces a jest issue with scoped modules when misusing the `moduleDirectory` config.
 
 Tested locally on `Linux Mint 20 Cinnamon` with the following `node` and `npm` versions:
 
