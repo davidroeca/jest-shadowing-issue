@@ -1,0 +1,13 @@
+{
+  "name": "jest-shadowing-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "failing-test": "jest --config jest.failing.config.js"
+  }
+}
